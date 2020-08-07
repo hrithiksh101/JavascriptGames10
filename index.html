@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoko Solver</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>The Sudoko Solver</h1>
+
+    <canvas id="canvas" width="540" height="540"></canvas>
+
+    <div class="container0">
+
+    </div>
+
+    <div class="container">
+      <button id="button">Solve</button>
+      <button class="button2">New Puzzle</button>
+      <button class="button3">Check</button>
+    </div>
+
+    <div class="input-box">
+      <br />
+
+      <div class="difficulty">
+        <h2>Change the difficulty</h2>
+        <div class="container2">
+          <label for="level">Enter level</label>
+          <input type="text" id="level" class="level" placeholder=""" />
+        </div>
+        <h2>1 | 2 | 3</h2>
+      </div>
+
+      <div class="container3">
+        <h2>To Change Enter row , column followed by value here</h2>
+
+        <input type="text" class="row" name="" id="" />
+        <input type="text" class="col" name="" id="" />
+        <input type="text" class="value" name="" id="" />
+        <button class="button4" >Change</button>
+      </div>
+    </div>
+
+    <div class="container4">
+
+     <a class="play-button" href="./AniaMineSweeper/index.html">Play Mine Sweeper</a>
+
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+.grid {
+  height: 620px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.grid div {
+  height: 60px;
+  width: 58px;
+  color: black;
+  border: 1px solid black;
+}
+
+.checked {
+  background-color: orange;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.bomb {
+  color: red;
+}
+
+.bombed {
+  background-color: red;
+}
+
+.flags-text {
+  margin-top: 30px;
+}
+
+.flag-container {
+  margin-left: 680px;
+}
+
+.hoverUnchecked :hover {
+  opacity: 0.8;
+}
+
+body {
+  background-color: rgb(194, 174, 174);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-center {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+
+.sudoko-button{
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding : 10px ;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color : black ;
+  border : 1px solid black ;
+  background-color: whitesmoke;
+
+}

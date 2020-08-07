@@ -1,0 +1,95 @@
+
+
+body {
+   
+    background-color : #333;
+    display: flex;
+    flex-direction: column ;
+    justify-items:  center;
+    align-items : center ;
+}
+
+h1 {
+    color : #fff ;
+}
+
+#canvas {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    height : 800px ;
+    width : 800px ;
+}
+
+button {
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: #f0f0f0;
+}
+
+button :hover{
+    background-color: green;
+    color : white ;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container input {
+    height: 3vh;
+    width: 2vw;
+}
+
+.container3 input{
+    width: 40px;
+    height: 30px;
+}
+
+.container3 button {
+    margin-left: 180px;
+}
+
+h2{
+    text-align: center;
+}
+.container2 input{
+    margin-left: 50px;
+}
+
+.container2 label {
+    font-size: 1.5rem;
+}
+
+/* .play-button{
+    text-decoration: none;
+    color : black ;
+    border: 1px solid black;
+    padding : 10px ; 
+    background-color: whitesmoke;
+    
+} */
+
+
+  
+  /* .container4{
+    height: 10vh;
+    width: 68vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  } */
+
+  .play-button{
+    text-decoration: none;
+    color : black ;
+    border: 1px solid black;
+    padding : 10px ; 
+    background-color: whitesmoke;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 1.1rem;
+    
+}
