@@ -173,7 +173,7 @@ button2.addEventListener('click', async (e) => {
 
   }
 
-  const URL = `http://www.cs.utep.edu/cheon/ws/sudoku/new/?size=9d&level=${level}`;
+  const URL = `https://cors-anywhere.herokuapp.com/http://www.cs.utep.edu/cheon/ws/sudoku/new/?size=9d&level=${level}`;
   let sudoku = await axios
     .get(URL)
     .then((data) => {
